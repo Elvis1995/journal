@@ -1,0 +1,21 @@
+h1
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+form{
+    text-align: center;
+}
+
+
+.form-group
+{
+    text-align: center;
+    background-color: red;
+}
+
+.form-control
+{
+    width: 50%;
+}
