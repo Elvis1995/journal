@@ -24,7 +24,7 @@ if (isset($_SESSION["loggedIn"])): ?>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-    <a class="navbar-brand" href="/myAdmin">Journal</a>
+    <a class="navbar-brand" href="/Elvis_Ajdarpasic_journal">Journal</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
@@ -34,7 +34,7 @@ if (isset($_SESSION["loggedIn"])): ?>
 <?php endif; ?>
 
 <div class="container">
-  <h1 class="text-center">Update Entry</h1>
+  <h1 class="text-center">Change entry</h1>
   <form class="form-horizontal" action="updateEntry.php" method="POST">
   <div class="form-group">
       <label for="Title">Title:</label>

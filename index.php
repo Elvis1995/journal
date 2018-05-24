@@ -5,7 +5,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/myAdmin">Journal</a>
+      <a class="navbar-brand" href="/Elvis_Ajdarpasic_journal">Journal</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="partials/register-page.php"><span class="glyphicon glyphicon-user"></span> Register</a></li>
@@ -19,7 +19,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/myAdmin">Journal</a>
+      <a class="navbar-brand" href="/Elvis_Ajdarpasic_journal">Journal</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="partials/logout.php"><span class="glyphicon glyphicon-user"></span> Log out</a></li>

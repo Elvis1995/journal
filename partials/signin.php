@@ -19,11 +19,11 @@ $statement = $pdo->prepare(
 
  //Om passet du postar är lika med passet som usern har så kommer du in
  if(password_verify($_POST["password"], $user["password"])) {
-     header('Location: /myAdmin');
+     header('Location: /Elvis_Ajdarpasic_journal');
     $_SESSION["loggedIn"] = true;
     $_SESSION["username"] = $user["username"];
     $_SESSION["userID"] = $user["userID"];
  }
 else{
-    header('Location: /myAdmin?message=login failed');
+    header('Location: /Elvis_Ajdarpasic_journal?message=login failed');
 }

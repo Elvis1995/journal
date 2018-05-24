@@ -16,29 +16,31 @@ $statement->execute([
   ?>
   <div class="container">
       <div class="panel panel-default">
-        <div class="row text-center">
-            <div class="col-xs-4">
-              <h3>TITLE</h3>
+        <div class="info-wrapper">
+
+          <div class="col-xs-4">
+              <h3>Title</h3>
+              <h4 class="title"><?= $entry["title"] ?></h4>
             </div>
             <div class="col-xs-4">
-              <h3>CONTENT</h3>
+              <h3>Content</h3>
+              <h4 class="content"><?= $entry["content"] ?></h4>
             </div>
             <div class="col-xs-4">
-              <h3>DATE</h3>
+              <h3>Date</h3>
+              <h4 class="date"><?= $entry["createdAt"] ?></h4>
             </div>
-        <h4 class="col-xs-4 panel-body"><?= $entry["title"] ?></h4>
-        <h4 class="col-xs-4 panel-body"><?= $entry["content"] ?></h4>
-        <h4 class="col-xs-4 panel-body"><?= $entry["createdAt"] ?></h4>
-        <div class="col-xs-6 text-left">
+          </div>
+      
+        <div class="col-lg-6">
         <form action="partials/formUpdate.php" method="post">
           <input type="hidden" name="entryID" value="<?= $entry["entryID"]?>">
-          <button class="btn btn-primary" type="submit">Update</button>
+          <button class="btn-primary update-knapp" type="submit">Update</button>
         </form>
-      </div>
-        <div class="col-xs-6 text-right">
+
         <form action="partials/deleteEntry.php" method="post">
           <input type="hidden" name="entryID" value="<?= $entry["entryID"]?>">
-          <button class="btn btn-danger text-right" type="submit">Delete</button>
+          <button class="btn-danger del-knapp" type="submit">Delete</button>
         </form>
       </div>
       </div>

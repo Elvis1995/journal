@@ -4,6 +4,8 @@ h1
     padding-bottom: 40px;
 }
 
+
+
 form{
     text-align: center;
 }
@@ -12,10 +14,35 @@ form{
 .form-group
 {
     text-align: center;
-    background-color: red;
+    background-color: grey;
 }
+
 
 .form-control
 {
     width: 50%;
+}
+
+.container
+{
+    height: 250px;
+}
+
+.title, .content, .date{
+    
+}
+
+.info-wrapper
+{
+  
+}
+
+.knapp-wrap
+{
+    
+}
+
+.update-knapp, .del-knapp
+{
+    width: 30%;
 }
