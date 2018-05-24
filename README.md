@@ -1,4 +1,4 @@
 # journal
 Elvis Ajdarpasic
 
-Repositorit länk:
+Repositorit länk: https://elvis1995.github.io/journal/.
